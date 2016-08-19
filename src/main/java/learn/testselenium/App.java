@@ -11,5 +11,6 @@ public class App
     {
        WebDriver driver = new FirefoxDriver();
        driver.get("http://www.google.com");
+       System.out.println(">>>>>>>>>> Browser Opened");
     }
 }
